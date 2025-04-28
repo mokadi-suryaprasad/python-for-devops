@@ -1,0 +1,22 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore Mac system files (optional)
+.DS_Store
+
+# Ignore virtual environments (optional)
+venv/
+env/
+
+# Ignore AWS credentials files (optional, if any are copied)
+*.pem
+*.key
