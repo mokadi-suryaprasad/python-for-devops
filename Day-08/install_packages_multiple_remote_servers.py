@@ -61,4 +61,3 @@ for server in servers:
         print(f"❌ Connection error for {server['host']}: {str(e)}")
     finally:
         ssh_client.close()
-        
